@@ -1,3 +1,9 @@
+/***
+** Title: app.js
+** Author: Wendy Leon
+** Date: March 25 2021
+** Description: API - findEmployeeById Sprint 1
+ ***/
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,5 +12,5 @@ import { Component } from '@angular/core';
   styles: [``]
 })
 export class AppComponent {
-  
+
 }
