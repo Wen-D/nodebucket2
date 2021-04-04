@@ -194,8 +194,8 @@ router.get('/:empId/tasks', async(req, res) => {
         console.log(err);
         //server error
         const updateTaskMongodbException = new BaseResponse('500', `Internal server error ${err.message}`, null );
-
         res.status(500).send(updateTaskMongodbException.toObject());
+
       }
       else
       {
@@ -335,7 +335,7 @@ router.get('/:empId/tasks', async(req, res) => {
             {
               console.log(updatedDoneItemEmployee);
               const deleteDoneItemSuccess = new BaseResponse('200', 'Query successful', updatedDoneItemEmployee);
-              res.status(200).send(deleteDoneItemSuccess.toObject());
+              res.status(200).send(updatedDoneItemEmployee.toObject());
             }
           })
         }
