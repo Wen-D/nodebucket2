@@ -11,6 +11,7 @@
     "start": "ng serve",
     "localhost": "ng build && node ./server/app.js",
     "heroku-postbuild": "ng build --configuration=production"
+
   },
   "private": true,
   "dependencies": {
