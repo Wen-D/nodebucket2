@@ -1,24 +1,16 @@
 {
   "name": "nodebucket",
   "version": "0.0.0",
-  /*"scripts": {
+  "scripts": {
     "ng": "ng",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "server": "nodemon ./server/app.js",
-    //"start": "ng serve",
-    "start": "node index.js",
+    "start": "ng serve",
     "localhost": "ng build && node ./server/app.js",
-    "heroku-postbuild": "ng build --configuration=production"*/
-    "scripts": {
-      "dev": "react-scripts start",
-      "start": "serve -s build",
-      "build": "react-scripts build",
-      "test": "react-scripts test --env=jsdom",
-      "eject": "react-scripts eject",
-      "heroku-postbuild": "npm run build"
+    "heroku-postbuild": "ng build --configuration=production"
 
   },
   "private": true,
