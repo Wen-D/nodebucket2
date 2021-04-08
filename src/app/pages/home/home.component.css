@@ -41,8 +41,9 @@
   styling for task container
   */
 .task-container {
-  width: 35%;
+  width: 550px;
   margin: 0 auto;
+  max-width: 95%;
 }
 
 .task-list {
